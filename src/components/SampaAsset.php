@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace sampa\media\components;
+namespace sampa\media;
 
 use yii\web\AssetBundle;
 

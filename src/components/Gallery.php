@@ -158,8 +158,8 @@ class Gallery extends Widget
     public function registerClientScript()
     {
         $view = $this->getView();
-        GalleryAsset::register($view);
-        SampaAsset::register($view);
+        sampa\media\GalleryAsset::register($view);
+        sampa\media\SampaAsset::register($view);
 
         $id = $this->options['id'];
         $options = Json::encode($this->clientOptions);
